@@ -1,0 +1,2414 @@
+[
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 1,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP1"
+    }
+  },
+  {
+    "front": {
+      "name": "Blockade",
+      "side": "AP",
+      "number": 2,
+      "ops": 4,
+      "sr": 4,
+      "ws": 2,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP2"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Reinforcements",
+      "side": "AP",
+      "number": 3,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP3"
+    }
+  },
+  {
+    "front": {
+      "name": "Pleve",
+      "side": "AP",
+      "number": 4,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP4"
+    }
+  },
+  {
+    "front": {
+      "name": "Putnik",
+      "side": "AP",
+      "number": 5,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": false,
+      "note": "1914, 1915 only"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP5"
+    }
+  },
+  {
+    "front": {
+      "name": "Withdrawal",
+      "side": "AP",
+      "number": 6,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP6"
+    }
+  },
+  {
+    "front": {
+      "name": "Severe Weather",
+      "side": "AP",
+      "number": 7,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": false
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP7"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Reinforcements",
+      "side": "AP",
+      "number": 8,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP8"
+    }
+  },
+  {
+    "front": {
+      "name": "Moltke",
+      "side": "AP",
+      "number": 9,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP9"
+    }
+  },
+  {
+    "front": {
+      "name": "French Reinforcements",
+      "side": "AP",
+      "number": 10,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP10"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Reinforcements",
+      "side": "AP",
+      "number": 11,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP11"
+    }
+  },
+  {
+    "front": {
+      "name": "Entrench",
+      "side": "AP",
+      "number": 12,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "note": "only one player may play as an event",
+      "prevents": "CP6"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP12"
+    }
+  },
+  {
+    "front": {
+      "name": "Rape of Belgium",
+      "side": "AP",
+      "number": 13,
+      "ops": 4,
+      "sr": 4,
+      "ws": 2,
+      "deck": 0,
+      "removed": true,
+      "note": "may only be played if CP played Guns of August; may only be played if Allied WS is at Mobilization"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP13"
+    }
+  },
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 14,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP14"
+    }
+  },
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 15,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP15"
+    }
+  },
+  {
+    "front": {
+      "name": "Romania",
+      "side": "AP",
+      "number": 16,
+      "ops": 5,
+      "sr": 5,
+      "ws": 1,
+      "deck": 1,
+      "removed": true,
+      "notes": "may not be played after Fall of the Tsar; see also 9.5.2.5"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP16"
+    }
+  },
+  {
+    "front": {
+      "name": "Italy",
+      "side": "AP",
+      "number": 17,
+      "ops": 5,
+      "sr": 5,
+      "ws": 2,
+      "deck": 1,
+      "removed": true,
+      "notes": "see 9.5.2.5"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP17"
+    }
+  },
+  {
+    "front": {
+      "name": "Hurricane Barrage",
+      "side": "AP",
+      "number": 18,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP18"
+    }
+  },
+  {
+    "front": {
+      "name": "Air Superiority",
+      "side": "AP",
+      "number": 19,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP19"
+    }
+  },
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 20,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP20"
+    }
+  },
+  {
+    "front": {
+      "name": "Phosgene Gas",
+      "side": "AP",
+      "number": 21,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP21"
+    }
+  },
+  {
+    "front": {
+      "name": "Italian Reinforcements",
+      "side": "AP",
+      "number": 22,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP22"
+    }
+  },
+  {
+    "front": {
+      "name": "Cloak and Dagger",
+      "side": "AP",
+      "number": 23,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP23"
+    }
+  },
+  {
+    "front": {
+      "name": "French Reinforcements",
+      "side": "AP",
+      "number": 24,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP24"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Reinforcements",
+      "side": "AP",
+      "number": 25,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP25"
+    }
+  },
+  {
+    "front": {
+      "name": "Lusitania",
+      "side": "AP",
+      "number": 26,
+      "ops": 3,
+      "sr": 4,
+      "ws": 2,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played after Blockade and before Zimmermann Telegram"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP26"
+    }
+  },
+  {
+    "front": {
+      "name": "Great Retreat",
+      "side": "AP",
+      "number": 27,
+      "ops": 3,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP27"
+    }
+  },
+  {
+    "front": {
+      "name": "Landships",
+      "side": "AP",
+      "number": 28,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "notes": "allows play of Royal Tank Corps",
+      "permits": "AP48"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP28"
+    }
+  },
+  {
+    "front": {
+      "name": "Yudenitch",
+      "side": "AP",
+      "number": 29,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP29"
+    }
+  },
+  {
+    "front": {
+      "name": "Salonika",
+      "side": "AP",
+      "number": 30,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true,
+      "notes": "may be played after Greek entry if Salonika is allied controlled and subject to stacking limits"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP30"
+    }
+  },
+  {
+    "front": {
+      "name": "MEF",
+      "side": "AP",
+      "number": 31,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played if Turkey is at war and before Salonika"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP31"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Reinforcements",
+      "side": "AP",
+      "number": 32,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP32"
+    }
+  },
+  {
+    "front": {
+      "name": "Grand Fleet",
+      "side": "AP",
+      "number": 33,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played immediately after High Seas Fleet"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP33"
+    }
+  },
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 34,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP34"
+    }
+  },
+  {
+    "front": {
+      "name": "Yanks and Tanks",
+      "side": "AP",
+      "number": 35,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP35"
+    }
+  },
+  {
+    "front": {
+      "name": "Mine Attack",
+      "side": "AP",
+      "number": 36,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": false
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP36"
+    }
+  },
+  {
+    "front": {
+      "name": "Independent Air Force",
+      "side": "AP",
+      "number": 37,
+      "ops": 2,
+      "sr": 2,
+      "ws": 1,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP37"
+    }
+  },
+  {
+    "front": {
+      "name": "USA Reinforcements",
+      "side": "AP",
+      "number": 38,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Over There",
+      "requires": "AP55"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP38"
+    }
+  },
+  {
+    "front": {
+      "name": "They Shall Not Pass",
+      "side": "AP",
+      "number": 39,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": false
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP39"
+    }
+  },
+  {
+    "front": {
+      "name": "14 Points",
+      "side": "AP",
+      "number": 40,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Zimmermann Telegram"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP40"
+    }
+  },
+  {
+    "front": {
+      "name": "Arab Northern Army",
+      "side": "AP",
+      "number": 41,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played if Turkey is at war"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP41"
+    }
+  },
+  {
+    "front": {
+      "name": "British Reinforcements",
+      "side": "AP",
+      "number": 42,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP42"
+    }
+  },
+  {
+    "front": {
+      "name": "USA Reinforcements",
+      "side": "AP",
+      "number": 43,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP43"
+    }
+  },
+  {
+    "front": {
+      "name": "Greece",
+      "side": "AP",
+      "number": 44,
+      "ops": 3,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP44"
+    }
+  },
+  {
+    "front": {
+      "name": "Kerensky Offensive",
+      "side": "AP",
+      "number": 45,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Fall of the Tsar and before Bolshevik Revolution"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP45"
+    }
+  },
+  {
+    "front": {
+      "name": "Brusilov Offensive",
+      "side": "AP",
+      "number": 46,
+      "ops": 4,
+      "sr": 4,
+      "ws": 2,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP46"
+    }
+  },
+  {
+    "front": {
+      "name": "USA Reinforcements",
+      "side": "AP",
+      "number": 47,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Over There"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP47"
+    }
+  },
+  {
+    "front": {
+      "name": "Royal Tank Corps",
+      "side": "AP",
+      "number": 48,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": false,
+      "notes": "may only be played after Landships"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP48"
+    }
+  },
+  {
+    "front": {
+      "name": "Sinai Pipeline",
+      "side": "AP",
+      "number": 49,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "allows play of Allenby"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP49"
+    }
+  },
+  {
+    "front": {
+      "name": "Allenby",
+      "side": "AP",
+      "number": 50,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Sinai Pipeline"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP50"
+    }
+  },
+  {
+    "front": {
+      "name": "Everyone into Battle",
+      "side": "AP",
+      "number": 51,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Blucher, Michael, or Peace Offensive"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP51"
+    }
+  },
+  {
+    "front": {
+      "name": "Convoy",
+      "side": "AP",
+      "number": 52,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after U-Boats Unleashed"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP52"
+    }
+  },
+  {
+    "front": {
+      "name": "Army of the Orient",
+      "side": "AP",
+      "number": 53,
+      "ops": 5,
+      "sr": 5,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP53"
+    }
+  },
+  {
+    "front": {
+      "name": "Zimmermann Telegram",
+      "side": "AP",
+      "number": 54,
+      "ops": 5,
+      "sr": 5,
+      "ws": 2,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played if US Entry marker is in the Zimmermann Telegram Allowed box; allows play of Over There"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP54"
+    }
+  },
+  {
+    "front": {
+      "name": "Over There",
+      "side": "AP",
+      "number": 55,
+      "ops": 5,
+      "sr": 5,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may be played after Zimmermann Telegram; allows play of US Reinforcements"
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP55"
+    }
+  },
+  {
+    "front": {
+      "name": "Paris Taxis",
+      "side": "AP",
+      "number": 56,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP56"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Cavalry",
+      "side": "AP",
+      "number": 57,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP57"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Guards",
+      "side": "AP",
+      "number": 58,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP58"
+    }
+  },
+  {
+    "front": {
+      "name": "Alpine Troops",
+      "side": "AP",
+      "number": 59,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP59"
+    }
+  },
+  {
+    "front": {
+      "name": "Czech Legion",
+      "side": "AP",
+      "number": 60,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP60"
+    }
+  },
+  {
+    "front": {
+      "name": "Maude",
+      "side": "AP",
+      "number": 61,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP61"
+    }
+  },
+  {
+    "front": {
+      "name": "The Sixtus Affair",
+      "side": "AP",
+      "number": 62,
+      "ops": 2,
+      "sr": 2,
+      "ws": 1,
+      "deck": 2,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP62"
+    }
+  },
+  {
+    "front": {
+      "name": "Backs to the Wall",
+      "side": "AP",
+      "number": 63,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP63"
+    }
+  },
+  {
+    "front": {
+      "name": "USA Reinforcements",
+      "side": "AP",
+      "number": 64,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Over There",
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP64"
+    }
+  },
+  {
+    "front": {
+      "name": "Influenza",
+      "side": "AP",
+      "number": 65,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may be played if Combined War Status >= 30",
+      "optional": true
+    },
+    "back": {
+      "face": "AP_back"
+    },
+    "_": {
+      "@id": ":AP65"
+    }
+  },
+  {
+    "front": {
+      "name": "Guns of August",
+      "side": "CP",
+      "number": 1,
+      "ops": 3,
+      "sr": 4,
+      "ws": 2,
+      "deck": 0,
+      "removed": true,
+      "notes": "may only be played in the first action round of August 1914"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP1"
+    }
+  },
+  {
+    "front": {
+      "name": "Wireless Intercepts",
+      "side": "CP",
+      "number": 2,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "notes": "play in Attempt Flank Attack step"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP2"
+    }
+  },
+  {
+    "front": {
+      "name": "Von Francois",
+      "side": "CP",
+      "number": 3,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP3"
+    }
+  },
+  {
+    "front": {
+      "name": "Severe Weather",
+      "side": "CP",
+      "number": 4,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP4"
+    }
+  },
+  {
+    "front": {
+      "name": "Landwehr",
+      "side": "CP",
+      "number": 5,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "notes": "may not be played if Berlin is AP controlled or OOS"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP5"
+    }
+  },
+  {
+    "front": {
+      "name": "Entrench",
+      "side": "CP",
+      "number": 6,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "notes": "only one player may play as an event",
+      "prevents": "AP12"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP6"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 7,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP7"
+    }
+  },
+  {
+    "front": {
+      "name": "Race to the Sea",
+      "side": "CP",
+      "number": 8,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP8"
+    }
+  },
+  {
+    "front": {
+      "name": "Reichstag Truce",
+      "side": "CP",
+      "number": 9,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 0,
+      "removed": true,
+      "notes": "may not be played after CP goes to Total War"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP9"
+    }
+  },
+  {
+    "front": {
+      "name": "Sud Army",
+      "side": "CP",
+      "number": 10,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP10"
+    }
+  },
+  {
+    "front": {
+      "name": "OberOst",
+      "side": "CP",
+      "number": 11,
+      "ops": 2,
+      "sr": 2,
+      "ws": 1,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP11"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 12,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP12"
+    }
+  },
+  {
+    "front": {
+      "name": "Falkenhayn",
+      "side": "CP",
+      "number": 13,
+      "ops": 4,
+      "sr": 4,
+      "ws": 2,
+      "deck": 0,
+      "removed": true,
+      "notes": "may be played on Aug/Sep 1914 turns only afer Moltke, or freely from Fall 1914; allows play of Place of Execution"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP13"
+    }
+  },
+  {
+    "front": {
+      "name": "Austria-Hungary Reinforcements",
+      "side": "CP",
+      "number": 14,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP14"
+    }
+  },
+  {
+    "front": {
+      "name": "Chlorine Gas",
+      "side": "CP",
+      "number": 15,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP15"
+    }
+  },
+  {
+    "front": {
+      "name": "Liman von Sanders",
+      "side": "CP",
+      "number": 16,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP16"
+    }
+  },
+  {
+    "front": {
+      "name": "Mata Hari",
+      "side": "CP",
+      "number": 17,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP17"
+    }
+  },
+  {
+    "front": {
+      "name": "Fortified Machine Guns",
+      "side": "CP",
+      "number": 18,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP18"
+    }
+  },
+  {
+    "front": {
+      "name": "Flamethrowers",
+      "side": "CP",
+      "number": 19,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP19"
+    }
+  },
+  {
+    "front": {
+      "name": "Austria-Hungary Reinforcements",
+      "side": "CP",
+      "number": 20,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP20"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 21,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP21"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 22,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP22"
+    }
+  },
+  {
+    "front": {
+      "name": "Austria-Hungary Reinforcements",
+      "side": "CP",
+      "number": 23,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP23"
+    }
+  },
+  {
+    "front": {
+      "name": "Libyan Revolt",
+      "side": "CP",
+      "number": 24,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played if there are no Allied units in Libya"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP24"
+    }
+  },
+  {
+    "front": {
+      "name": "High Seas Fleet",
+      "side": "CP",
+      "number": 25,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "notes": "Grand Fleet may be played as next action"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP25"
+    }
+  },
+  {
+    "front": {
+      "name": "Place of Execution",
+      "side": "CP",
+      "number": 26,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played after Falkenhayn and before H-L Take Command"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP26"
+    }
+  },
+  {
+    "front": {
+      "name": "Zeppelin Raids",
+      "side": "CP",
+      "number": 27,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP27"
+    }
+  },
+  {
+    "front": {
+      "name": "Tsar Takes Command",
+      "side": "CP",
+      "number": 28,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true,
+      "notes": "may only be played if the Russian Capitulation marker is in the Tsar Takes Command Allowed box"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP28"
+    }
+  },
+  {
+    "front": {
+      "name": "11th Army",
+      "side": "CP",
+      "number": 29,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP29"
+    }
+  },
+  {
+    "front": {
+      "name": "Alpenkorps",
+      "side": "CP",
+      "number": 30,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP30"
+    }
+  },
+  {
+    "front": {
+      "name": "Kemal",
+      "side": "CP",
+      "number": 31,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP31"
+    }
+  },
+  {
+    "front": {
+      "name": "War in Africa",
+      "side": "CP",
+      "number": 32,
+      "ops": 3,
+      "sr": 4,
+      "ws": 1,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP32"
+    }
+  },
+  {
+    "front": {
+      "name": "Walter Rathenau",
+      "side": "CP",
+      "number": 33,
+      "ops": 5,
+      "sr": 5,
+      "ws": 2,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP33"
+    }
+  },
+  {
+    "front": {
+      "name": "Bulgaria",
+      "side": "CP",
+      "number": 34,
+      "ops": 5,
+      "sr": 5,
+      "ws": 2,
+      "deck": 1,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP34"
+    }
+  },
+  {
+    "front": {
+      "name": "Mustard Gas",
+      "side": "CP",
+      "number": 35,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP35"
+    }
+  },
+  {
+    "front": {
+      "name": "U-Boats Unleashed",
+      "side": "CP",
+      "number": 36,
+      "ops": 2,
+      "sr": 2,
+      "ws": 2,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after H-L Take Command; prevents play of US Reinforcements until Convoy is played"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP36"
+    }
+  },
+  {
+    "front": {
+      "name": "Hoffmann",
+      "side": "CP",
+      "number": 37,
+      "ops": 2,
+      "sr": 2,
+      "ws": 1,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP37"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 38,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP38"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 39,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP39"
+    }
+  },
+  {
+    "front": {
+      "name": "Air Superiority",
+      "side": "CP",
+      "number": 40,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": false
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP40"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 41,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP41"
+    }
+  },
+  {
+    "front": {
+      "name": "Turkish Reinforcements",
+      "side": "CP",
+      "number": 42,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP42"
+    }
+  },
+  {
+    "front": {
+      "name": "Von Below",
+      "side": "CP",
+      "number": 43,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP43"
+    }
+  },
+  {
+    "front": {
+      "name": "Von Hutier",
+      "side": "CP",
+      "number": 44,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP44"
+    }
+  },
+  {
+    "front": {
+      "name": "Treaty of Brest Litovsk",
+      "side": "CP",
+      "number": 45,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after Bolshevik Revolution"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP45"
+    }
+  },
+  {
+    "front": {
+      "name": "German Reinforcements",
+      "side": "CP",
+      "number": 46,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP46"
+    }
+  },
+  {
+    "front": {
+      "name": "French Mutiny",
+      "side": "CP",
+      "number": 47,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP47"
+    }
+  },
+  {
+    "front": {
+      "name": "Turkish Reinforcements",
+      "side": "CP",
+      "number": 48,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP48"
+    }
+  },
+  {
+    "front": {
+      "name": "Michael",
+      "side": "CP",
+      "number": 49,
+      "ops": 4,
+      "sr": 4,
+      "ws": 1,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after H-L Take Command"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP49"
+    }
+  },
+  {
+    "front": {
+      "name": "Blucher",
+      "side": "CP",
+      "number": 50,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after H-L Take Command"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP50"
+    }
+  },
+  {
+    "front": {
+      "name": "Peace Offensive",
+      "side": "CP",
+      "number": 51,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played after H-L Take Command"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP51"
+    }
+  },
+  {
+    "front": {
+      "name": "Fall of the Tsar",
+      "side": "CP",
+      "number": 52,
+      "ops": 5,
+      "sr": 5,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played if Russian Capitulation marker is in the Fall of the Tsar Allowed box"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP52"
+    }
+  },
+  {
+    "front": {
+      "name": "Bolshevik Revolution",
+      "side": "CP",
+      "number": 53,
+      "ops": 5,
+      "sr": 5,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may only be played if Russian Capitulation marker is in the Bolshevik Revolution Allowed box"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP53"
+    }
+  },
+  {
+    "front": {
+      "name": "H-L Take Command",
+      "side": "CP",
+      "number": 54,
+      "ops": 5,
+      "sr": 5,
+      "ws": 2,
+      "deck": 2,
+      "removed": true,
+      "notes": "allows play of Michael, Blucher, Peace Offensive, Hoffmann, U-Boats Unleashed; prevents play of Place of Execution"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP54"
+    }
+  },
+  {
+    "front": {
+      "name": "Lloyd George",
+      "side": "CP",
+      "number": 55,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may not be played after Michael, Blucher, or Peace Offensive"
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP55"
+    }
+  },
+  {
+    "front": {
+      "name": "Withdrawal",
+      "side": "CP",
+      "number": 56,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP56"
+    }
+  },
+  {
+    "front": {
+      "name": "Kaisertreu",
+      "side": "CP",
+      "number": 57,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 0,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP57"
+    }
+  },
+  {
+    "front": {
+      "name": "Stavka Timidity",
+      "side": "CP",
+      "number": 58,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 1,
+      "removed": false,
+      "notes": "may be played after Tsar Takes Command",
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP58"
+    }
+  },
+  {
+    "front": {
+      "name": "Polish Restoration",
+      "side": "CP",
+      "number": 59,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "notes": "may be played if CP controls Warsaw",
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP59"
+    }
+  },
+  {
+    "front": {
+      "name": "Turk Determination",
+      "side": "CP",
+      "number": 60,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP60"
+    }
+  },
+  {
+    "front": {
+      "name": "Haig",
+      "side": "CP",
+      "number": 61,
+      "ops": 4,
+      "sr": 4,
+      "ws": 0,
+      "deck": 1,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP61"
+    }
+  },
+  {
+    "front": {
+      "name": "Achtung: Panzer",
+      "side": "CP",
+      "number": 62,
+      "ops": 2,
+      "sr": 2,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP62"
+    }
+  },
+  {
+    "front": {
+      "name": "Russian Desertions",
+      "side": "CP",
+      "number": 63,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may be played after Fall of the Tsar",
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP63"
+    }
+  },
+  {
+    "front": {
+      "name": "Alberich",
+      "side": "CP",
+      "number": 64,
+      "ops": 3,
+      "sr": 4,
+      "ws": 0,
+      "deck": 2,
+      "removed": true,
+      "notes": "may not be used if Allies play Royal Tank Corps or Yanks and Tanks",
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP64"
+    }
+  },
+  {
+    "front": {
+      "name": "Prince Max",
+      "side": "CP",
+      "number": 65,
+      "ops": 4,
+      "sr": 4,
+      "ws": 3,
+      "deck": 2,
+      "removed": true,
+      "notes": "may not be played after turn 16",
+      "optional": true
+    },
+    "back": {
+      "face": "CP_back"
+    },
+    "_": {
+      "@id": ":CP65"
+    }
+  }
+]
