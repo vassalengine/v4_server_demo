@@ -142,14 +142,16 @@
   },
   {
     "front": {
-      "name": "Russian Reinforcements",
+      "name": "Russian Reinforcements (2 corps)",
+      "text": "2 corps",
       "side": "AP",
       "number": 8,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -161,13 +163,15 @@
   {
     "front": {
       "name": "Moltke",
+      "text": "May only be played in August or September 1914. CP Activation in Belgium or France costs 1 OPS per unit (not space) until the "Falkenhayn" card is played. All units must be activated in a space. Supersedes Sud Army and Eleventh army card effects.",
       "side": "AP",
       "number": 9,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -178,14 +182,16 @@
   },
   {
     "front": {
-      "name": "French Reinforcements",
+      "name": "French Reinforcements (10th Army)",
+      "text": "10th Army",
       "side": "AP",
       "number": 10,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -196,14 +202,16 @@
   },
   {
     "front": {
-      "name": "Russian Reinforcements",
+      "name": "Russian Reinforcements (9th Army, 10th Army)",
+      "text": "9th Army, 10th Army",
       "side": "AP",
       "number": 11,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -215,6 +223,7 @@
   {
     "front": {
       "name": "Entrench",
+      "text": "Place a Level 1 Trench (not improve a Level 1 to Level 2) in any space occupied by a supplied friendly Army. Both players may now entrench. Only one player may play this card as an event.",
       "side": "AP",
       "number": 12,
       "ops": 3,
@@ -222,7 +231,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
-      "note": "only one player may play as an event",
+      "combat": false,
       "prevents": "CP6"
     },
     "back": {
@@ -235,14 +244,15 @@
   {
     "front": {
       "name": "Rape of Belgium",
+      "text": "May only be played if CP played \"Guns of August\". May only be played as an Event if the Allied War Status is still at Mobilization. Subtract 1 VP.",
       "side": "AP",
       "number": 13,
       "ops": 4,
       "sr": 4,
       "ws": 2,
       "deck": 0,
-      "removed": true,
-      "note": "may only be played if CP played Guns of August; may only be played if Allied WS is at Mobilization"
+      "removed": true,  
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -253,14 +263,16 @@
   },
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (1st Army)",
+      "text": "1st Army, 1 corps",
       "side": "AP",
       "number": 14,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -271,14 +283,16 @@
   },
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (4th Army)",
+      "text": "4th Army, 1 corps",
       "side": "AP",
       "number": 15,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -290,6 +304,7 @@
   {
     "front": {
       "name": "Romania",
+      "text": "May not be played after \"Fall of the Tsar\". Romania joins the Allies. See 9.5.2.5 for restriction on play as a non-event when CP are at Total War.",
       "side": "AP",
       "number": 16,
       "ops": 5,
@@ -297,7 +312,7 @@
       "ws": 1,
       "deck": 1,
       "removed": true,
-      "notes": "may not be played after Fall of the Tsar; see also 9.5.2.5"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -309,6 +324,7 @@
   {
     "front": {
       "name": "Italy",
+      "text": "Italy joins the Allies. Add 1 VP during the War Status Phase of each turn if unplayed after Allied War Commitment Level is Total War. See also 9.5.2.5 for restrictions on play as a non-event when CP are at Total War.",
       "side": "AP",
       "number": 17,
       "ops": 5,
@@ -316,7 +332,7 @@
       "ws": 2,
       "deck": 1,
       "removed": true,
-      "notes": "see 9.5.2.5"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -328,13 +344,15 @@
   {
     "front": {
       "name": "Hurricane Barrage",
+      "text": "A BR attack adds a +1 drm. ANA, AUS, CND, or PT do not qualify as BR for this purpose.",
       "side": "AP",
       "number": 18,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": false
+      "removed": false,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -346,13 +364,15 @@
   {
     "front": {
       "name": "Air Superiority",
+      "text": "A BR or FR attack adds +1 drm. ANA, AUS, CND, or PT do not qualify as BR for this purpose.",
       "side": "AP",
       "number": 19,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": false
+      "removed": false,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -363,14 +383,16 @@
   },
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (AUS Corps, CND Corps)",
+      "text": "AUS Corps, CND Corps",
       "side": "AP",
       "number": 20,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -382,13 +404,15 @@
   {
     "front": {
       "name": "Phosgene Gas",
+      "text": "A FR attack adds +1 drm.",
       "side": "AP",
       "number": 21,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -399,14 +423,16 @@
   },
   {
     "front": {
-      "name": "Italian Reinforcements",
+      "name": "Italian Reinforcements (5th Army)",
+      "text": "5th Army",
       "side": "AP",
       "number": 22,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -418,13 +444,15 @@
   {
     "front": {
       "name": "Cloak and Dagger",
+      "text": "Allied player may examine all cards in the CP player's hand and then conduct Operations using this card.",
       "side": "AP",
       "number": 23,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -435,14 +463,16 @@
   },
   {
     "front": {
-      "name": "French Reinforcements",
+      "name": "French Reinforcements (7th Army)",
+      "text": "7th Army",
       "side": "AP",
       "number": 24,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -453,14 +483,16 @@
   },
   {
     "front": {
-      "name": "Russian Reinforcements",
+      "name": "Russian Reinforcements (6th Army, 7th Army, 2 corps)",
+      "text": "6th Army, 7th Army, 2 corps",
       "side": "AP",
       "number": 25,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -472,6 +504,7 @@
   {
     "front": {
       "name": "Lusitania",
+      "text": "May only be played after \"Blockade\" and before \"Zimmermann Telegram\". Subtract 1 VP.",
       "side": "AP",
       "number": 26,
       "ops": 3,
@@ -479,7 +512,7 @@
       "ws": 2,
       "deck": 1,
       "removed": true,
-      "notes": "may only be played after Blockade and before Zimmermann Telegram"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -491,13 +524,15 @@
   {
     "front": {
       "name": "Great Retreat",
+      "text": "All RU units attacked this turn may retreat before combat. This must be announced before flank attempts, play of combat cards, and die rolls. No combat resolution takes place. The RU unit(s) must retreat 1 space. Forts and non-RU units in the space are still attacked. Aborted CP attacks still count for MO purposes.",
       "side": "AP",
       "number": 27,
       "ops": 3,
       "sr": 4,
       "ws": 1,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -509,6 +544,7 @@
   {
     "front": {
       "name": "Landships",
+      "text": "Allows play of \"Royal Tank Corps\".",
       "side": "AP",
       "number": 28,
       "ops": 4,
@@ -516,7 +552,8 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
-      "notes": "allows play of Royal Tank Corps",
+      "combat": false,
+      "yellow": true,
       "permits": "AP48"
     },
     "back": {
@@ -528,14 +565,16 @@
   },
   {
     "front": {
-      "name": "Yudenitch",
+      "name": "Yudenitch (RU Reinforcements)",
+      "text": "Place the Russian CAU Army in any supplied space in Russia on the Near East map. Can enter prior to TU entry.",
       "side": "AP",
       "number": 29,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -547,6 +586,7 @@
   {
     "front": {
       "name": "Salonika",
+      "text": "Allied player must SR at least one and up to 3 BR/FR Corps (from Allied ports and/or Reserve) only to Salonika (ANA, CND, AUS, or PT do not count). This counts as an SR action (see 9.3.3). May be played after Greek entry if Salonika is Allied controlled and subject to stacking limits. See also 9.5.2.4.",
       "side": "AP",
       "number": 30,
       "ops": 4,
@@ -554,7 +594,7 @@
       "ws": 1,
       "deck": 1,
       "removed": true,
-      "notes": "may be played after Greek entry if Salonika is allied controlled and subject to stacking limits"
+      "combat": false,      
     },
     "back": {
       "face": "AP_back"
@@ -565,7 +605,8 @@
   },
   {
     "front": {
-      "name": "MEF",
+      "name": "MEF (BR Reinforcements)",
+      "text": "May only be played if Turkey is at war and before \"Salonika\". Place the MEF Army at any MEF space. See 9.5.3.5."
       "side": "AP",
       "number": 31,
       "ops": 4,
@@ -584,14 +625,16 @@
   },
   {
     "front": {
-      "name": "Russian Reinforcements",
+      "name": "Russian Reinforcements (12th Army)",
+      "text": "12th Army",
       "side": "AP",
       "number": 32,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -603,6 +646,7 @@
   {
     "front": {
       "name": "Grand Fleet",
+      "text": "If played in the Allied Action Round immediately following the \"High Seas Fleet\", cancel that card. Cannot be played as an event at any other time.",
       "side": "AP",
       "number": 33,
       "ops": 2,
@@ -610,7 +654,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
-      "notes": "may only be played immediately after High Seas Fleet"
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -621,14 +665,16 @@
   },
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (3rd Army)",
+      "text": "3rd Army, 2 corps",
       "side": "AP",
       "number": 34,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
