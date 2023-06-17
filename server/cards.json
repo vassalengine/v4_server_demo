@@ -686,13 +686,15 @@
   {
     "front": {
       "name": "Yanks and Tanks",
+      "text": "Allied player conducts Operations using this card and all Combats involving a US unit during this Action Round get a +2 drm.",
       "side": "AP",
       "number": 35,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -704,13 +706,15 @@
   {
     "front": {
       "name": "Mine Attack",
+      "text": "A BR attack vs. an entrenched CP Defender adds a +1 drm. May only be used in one Combat per turn. ANA, AUS, CND, or PT do not qualify as BR for this purpose.",
       "side": "AP",
       "number": 36,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 2,
-      "removed": false
+      "removed": false,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -722,13 +726,15 @@
   {
     "front": {
       "name": "Independent Air Force",
+      "text": "Cancel or prevent Rathenau Event bonus GE RP for the rest of the game.",
       "side": "AP",
       "number": 37,
       "ops": 2,
       "sr": 2,
       "ws": 1,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": true,
     },
     "back": {
       "face": "AP_back"
@@ -739,7 +745,8 @@
   },
   {
     "front": {
-      "name": "USA Reinforcements",
+      "name": "USA Reinforcements (1 corps)",
+      "text": "1 corps. May only be played after \"Over There\".",
       "side": "AP",
       "number": 38,
       "ops": 2,
@@ -747,7 +754,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Over There",
+      "combat": false,
       "requires": "AP55"
     },
     "back": {
@@ -760,13 +767,15 @@
   {
     "front": {
       "name": "They Shall Not Pass",
+      "text": "Cancels any retreat for losing a Combat if defending in a non-destroyed FR fort space. A FR unit must be present in the space. Card remains face up until a combat is lost.",
       "side": "AP",
       "number": 39,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 2,
-      "removed": false
+      "removed": false,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -778,6 +787,7 @@
   {
     "front": {
       "name": "14 Points",
+      "text": "May only be played after \"Zimmermann Telegram\". Only the Allied player may offer Peace Terms for the rest of the game. Subtract 1 VP.",
       "side": "AP",
       "number": 40,
       "ops": 2,
@@ -785,7 +795,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Zimmermann Telegram"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -796,7 +806,8 @@
   },
   {
     "front": {
-      "name": "Arab Northern Army",
+      "name": "Arab Northern Army (BR Reinforcements)",
+      "text": "May only be played if Turkey is at war. Place the British ANA Corps in the Arabia space. See 11.1.15.",
       "side": "AP",
       "number": 41,
       "ops": 3,
@@ -815,14 +826,16 @@
   },
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (5th Army)",
+      "text": "5th Army, 1 corps, PT Corps.",
       "side": "AP",
       "number": 42,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -833,14 +846,16 @@
   },
   {
     "front": {
-      "name": "USA Reinforcements",
+      "name": "USA Reinforcements (1st Army)",
+      "text": "1st Army, 2 corps. May only be played after \"Over There\".",
       "side": "AP",
       "number": 43,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -852,13 +867,15 @@
   {
     "front": {
       "name": "Greece",
+      "text": "Greece joins the Allies. Play of Greece does not prevent play of MEF or Salonika.",
       "side": "AP",
       "number": 44,
       "ops": 3,
       "sr": 4,
       "ws": 1,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -870,6 +887,7 @@
   {
     "front": {
       "name": "Kerensky Offensive",
+      "text": "May only be played after \"Fall of the Tsar\" and before the \"Bolshevik Revolution\". Allied player conducts Operations using this card and one RU attack vs. a space with any AH, BU, or TU units adds a +2 drm. AP player announces intent to use this drm prior to the CP player's use of defensive CC.",
       "side": "AP",
       "number": 45,
       "ops": 3,
@@ -877,7 +895,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Fall of the Tsar and before Bolshevik Revolution"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -889,13 +907,15 @@
   {
     "front": {
       "name": "Brusilov Offensive",
+      "text": "Allied player conducts Operations using this card and adds a +1 drm to ALL RU attacks this Action Round. Also for 1 RU attack vs. only non-GE CP units cancel all trench effects. The negation of trench effects must be announced prior to the Attempt Flank Attack Step.",
       "side": "AP",
       "number": 46,
       "ops": 4,
       "sr": 4,
       "ws": 2,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -906,7 +926,8 @@
   },
   {
     "front": {
-      "name": "USA Reinforcements",
+      "name": "USA Reinforcements (2nd Army)",
+      "text": "2nd Army, 1 corps. May only be played after \"Over There\".",
       "side": "AP",
       "number": 47,
       "ops": 4,
@@ -914,7 +935,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Over There"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -926,6 +947,7 @@
   {
     "front": {
       "name": "Royal Tank Corps",
+      "text": "May only be played after \"Landships\". Cancels trench column shifts for a BR attack against a clear space in France/Belgium/Germany. Does not cancel trench effects for flanking, Fortified Machine Guns CC, or negation of retreat. May only be used in 1 Combat per turn. ANA, AUS, CND, or PT do not qualify as BR for this purpose.",
       "side": "AP",
       "number": 48,
       "ops": 4,
@@ -933,7 +955,7 @@
       "ws": 0,
       "deck": 2,
       "removed": false,
-      "notes": "may only be played after Landships"
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -945,6 +967,7 @@
   {
     "front": {
       "name": "Sinai Pipeline",
+      "text": "Cancels Sinai -3 drm for Allied units only. Place Sinai Pipeline marker in the Sinai space. Can be played regardless of who controls Sinai and the effect cannot be reversed. Summer turn desert effects remain. Allows play of \"Allenby\".",
       "side": "AP",
       "number": 49,
       "ops": 4,
@@ -952,7 +975,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "allows play of Allenby"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -963,7 +986,8 @@
   },
   {
     "front": {
-      "name": "Allenby",
+      "name": "Allenby (BR Reinforcements)",
+      "text": "May only be played after \"Sinai Pipeline\". Place the British NE Army in Alexandria. See 9.5.3.4.",
       "side": "AP",
       "number": 50,
       "ops": 4,
@@ -971,7 +995,7 @@
       "ws": 1,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Sinai Pipeline"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -983,6 +1007,7 @@
   {
     "front": {
       "name": "Everyone into Battle",
+      "text": "May only be played after at least one of the following has occurred: \"Blucher,\" \"Michael\" or \"Peace Offensive.\" Allied units in Italy, France and Belgium are considered one nationality for Activation for the rest of this turn (only). Rule 12.1.11 still applies.",
       "side": "AP",
       "number": 51,
       "ops": 4,
@@ -990,7 +1015,7 @@
       "ws": 1,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Blucher, Michael, or Peace Offensive"
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -1002,6 +1027,7 @@
   {
     "front": {
       "name": "Convoy",
+      "text": "May only be played after \"U-Boats Unleashed\". Cancels effects of that card. Subtract 1 VP.",
       "side": "AP",
       "number": 52,
       "ops": 4,
@@ -1009,7 +1035,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after U-Boats Unleashed"
+      "combat": false,
     },
     "back": {
       "face": "AP_back"
@@ -1020,14 +1046,16 @@
   },
   {
     "front": {
-      "name": "Army of the Orient",
+      "name": "Army of the Orient (FR Reinforcements)",
+      "text": "Place the French Orient Army in the Salonika space if Allied controlled, subject to stacking limits. See 9.5.3.4.",
       "side": "AP",
       "number": 53,
       "ops": 5,
       "sr": 5,
       "ws": 0,
       "deck": 2,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -1039,6 +1067,7 @@
   {
     "front": {
       "name": "Zimmermann Telegram",
+      "text": "May only be played if U.S. Entry marker is in the \"Zimmermann Telegram Allowed\" box. Subtract 1 VP. US joins the Allies. Allows play of \"Over There\" card on any following turn.",
       "side": "AP",
       "number": 54,
       "ops": 5,
@@ -1046,7 +1075,8 @@
       "ws": 2,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played if US Entry marker is in the Zimmermann Telegram Allowed box; allows play of Over There"
+      "combat": false,
+      "yellow": true
     },
     "back": {
       "face": "AP_back"
@@ -1058,6 +1088,7 @@
   {
     "front": {
       "name": "Over There",
+      "text": "May be played on any turn after \"Zimmermann Telegram\". Allows play of \"USA Reinforcements.\" ALL Allied RP cards played now include 1 US RP.",
       "side": "AP",
       "number": 55,
       "ops": 5,
@@ -1065,7 +1096,8 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may be played after Zimmermann Telegram; allows play of US Reinforcements"
+      "combat": false,
+      "yellow": true
     },
     "back": {
       "face": "AP_back"
@@ -1077,6 +1109,7 @@
   {
     "front": {
       "name": "Paris Taxis",
+      "text": "Allied player receives 1 extra RP to immediately flip a reduced French Army in or adjacent to Paris to its full strength side. The RP may not be spent to replace an eliminated unit.",
       "side": "AP",
       "number": 56,
       "ops": 2,
@@ -1084,6 +1117,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -1096,6 +1130,7 @@
   {
     "front": {
       "name": "Russian Cavalry",
+      "text": "Place the two Russian cavalry corps in any one space inside Russia containing a supplied Russian Army. They may not be placed in violation of the stacking limit. May not operate in the NE. They may not replace an eliminated Russian Army.",
       "side": "AP",
       "number": 57,
       "ops": 3,
@@ -1103,6 +1138,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -1115,6 +1151,7 @@
   {
     "front": {
       "name": "Russian Guards",
+      "text": "A RU attack adds +1 drm.",
       "side": "AP",
       "number": 58,
       "ops": 2,
@@ -1122,6 +1159,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -1134,6 +1172,7 @@
   {
     "front": {
       "name": "Alpine Troops",
+      "text": "An attack only involving IT units adds +1 drm.",
       "side": "AP",
       "number": 59,
       "ops": 2,
@@ -1141,6 +1180,7 @@
       "ws": 0,
       "deck": 1,
       "removed": false,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -1153,6 +1193,7 @@
   {
     "front": {
       "name": "Czech Legion",
+      "text": "Remove from the game 1 AH Corps from the CP Eliminated/Replacement Box. Add the RU Czech Legion Corps to the AP Reserve Box. This Corps is treated as Russian for all purposes but it may not replace an eliminated Russian Army.",
       "side": "AP",
       "number": 60,
       "ops": 3,
@@ -1160,6 +1201,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -1172,6 +1214,7 @@
   {
     "front": {
       "name": "Maude",
+      "text": "Any one attack made by BR units tracing supply to Basra may fire on the Army Table.",
       "side": "AP",
       "number": 61,
       "ops": 4,
@@ -1179,6 +1222,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -1191,6 +1235,7 @@
   {
     "front": {
       "name": "The Sixtus Affair",
+      "text": "Roll on the Allied 0-19 Peace Terms Table. This event does not qualify as a Peace Offer and may not be accepted for a draw.",
       "side": "AP",
       "number": 62,
       "ops": 2,
@@ -1198,6 +1243,7 @@
       "ws": 1,
       "deck": 2,
       "removed": true,
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -1210,6 +1256,7 @@
   {
     "front": {
       "name": "Backs to the Wall",
+      "text": "A space with a BR Army in France/Belgium may cancel any one mandated retreat. This CC is permanently discarded regardless of whether a retreat is mandated by the combat results.",
       "side": "AP",
       "number": 63,
       "ops": 3,
@@ -1217,6 +1264,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -1228,7 +1276,8 @@
   },
   {
     "front": {
-      "name": "USA Reinforcements",
+      "name": "USA Reinforcements (2 corps)",
+      "text": "2 corps. May only be played after \"Over There\".",
       "side": "AP",
       "number": 64,
       "ops": 3,
@@ -1236,7 +1285,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Over There",
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -1249,6 +1298,7 @@
   {
     "front": {
       "name": "Influenza",
+      "text": "May be played if Combined War Status is 30+. Neither side may perform RP actions for the rest of this turn. Already played RPs are not lost.",
       "side": "AP",
       "number": 65,
       "ops": 4,
@@ -1256,7 +1306,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may be played if Combined War Status >= 30",
+      "combat": false,
       "optional": true
     },
     "back": {
