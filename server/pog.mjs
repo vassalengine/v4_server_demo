@@ -2,6 +2,8 @@ import { startServer } from './server.mjs';
 
 import { derefPath } from './state.mjs';
 
+import { dump_it } from './util.mjs';
+
 // 
 // load the card data
 //
@@ -210,6 +212,7 @@ const g = {
     'play': (s, dst_p, src_p, pid) => {
       const deck = derefPath(s, src_p.slice(0, -1));
       const [card] = deck.splice(src_p[-1], 1);
+      console.log("*** Card Played: " + card.front.name);
       delete card._.front;
       derefPath(s, dst_p).push(card);
     },

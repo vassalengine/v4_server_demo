@@ -1,14 +1,16 @@
 [
   {
     "front": {
-      "name": "British Reinforcements",
+      "name": "British Reinforcements (2nd Army)",
+      "text": "2nd Army, 1 corps",
       "side": "AP",
       "number": 1,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -20,13 +22,15 @@
   {
     "front": {
       "name": "Blockade",
+      "text": "Subtract 1 VP during the War Status Phase of each Winter turn.",
       "side": "AP",
       "number": 2,
       "ops": 4,
       "sr": 4,
       "ws": 2,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -37,14 +41,16 @@
   },
   {
     "front": {
-      "name": "Russian Reinforcements",
+      "name": "Russian Reinforcements (11th Army)",
+      "text": "11th Army, 1 corps",
       "side": "AP",
       "number": 3,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": false
     },
     "back": {
       "face": "AP_back"
@@ -56,13 +62,15 @@
   {
     "front": {
       "name": "Pleve",
+      "text": "RU units get a +1 drm for an attack or defense.",
       "side": "AP",
       "number": 4,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -74,6 +82,7 @@
   {
     "front": {
       "name": "Putnik",
+      "text": "May only be played in 1914 and 1915. SB units get a +1 drm for an attack or defense.",
       "side": "AP",
       "number": 5,
       "ops": 2,
@@ -81,6 +90,7 @@
       "ws": 0,
       "deck": 0,
       "removed": false,
+      "combat": true,
       "note": "1914, 1915 only"
     },
     "back": {
@@ -93,13 +103,15 @@
   {
     "front": {
       "name": "Withdrawal",
+      "text": "Defending units negate one required Corps step loss and instead must retreat 1 space. Full strength Attacking units may advance. If no Corps step(s) lost, an Army step loss may be negated. See rule 12.6 for details.",
       "side": "AP",
       "number": 6,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 0,
-      "removed": true
+      "removed": true,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
@@ -111,13 +123,15 @@
   {
     "front": {
       "name": "Severe Weather",
+      "text": "Defending units in a mountain space in Fall/Winter or a swamp space in Spring/Fall get a +2 drm.",
       "side": "AP",
       "number": 7,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 0,
-      "removed": false
+      "removed": false,
+      "combat": true
     },
     "back": {
       "face": "AP_back"
