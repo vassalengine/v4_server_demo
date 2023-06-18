@@ -165,4 +165,6 @@ export function startServer(g) {
   };
 
   http.createServer(requestListener).listen(8887);
+
+  console.log("Server Started");
 }
