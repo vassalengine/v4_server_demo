@@ -1319,6 +1319,7 @@
   {
     "front": {
       "name": "Guns of August",
+      "text": "May only be played in the first Action Round of the August 1914 turn. The Liege fort is destroyed. Place the GE 1st and 2nd Armies in the Liege space. The GE 1st, 2nd, and 3rd Armies are activated for Combat.",
       "side": "CP",
       "number": 1,
       "ops": 3,
@@ -1326,7 +1327,7 @@
       "ws": 2,
       "deck": 0,
       "removed": true,
-      "notes": "may only be played in the first action round of August 1914"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -1338,6 +1339,7 @@
   {
     "front": {
       "name": "Wireless Intercepts",
+      "text": "Play in Attempt Flank Attack step. A Flank Attack Attempt involving at least one GE unit (army or corps) vs. a space containing only RU units is automatically successful. Play prior to Attempt Flank Attack Step.",
       "side": "CP",
       "number": 2,
       "ops": 2,
@@ -1345,7 +1347,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
-      "notes": "play in Attempt Flank Attack step"
+      "combat": true
     },
     "back": {
       "face": "CP_back"
@@ -1357,13 +1359,15 @@
   {
     "front": {
       "name": "Von Francois",
+      "text": "A GE attack vs. RU units adds a +1 drm. May be used against spaces with RU and other nationalities.",
       "side": "CP",
       "number": 3,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 0,
-      "removed": false
+      "removed": false,      
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -1375,6 +1379,7 @@
   {
     "front": {
       "name": "Severe Weather",
+      "text": "Defending units in a mountain space in Fall/Winter or a swamp space in Spring/Fall get a +2 drm.",
       "side": "CP",
       "number": 4,
       "ops": 2,
@@ -1393,6 +1398,7 @@
   {
     "front": {
       "name": "Landwehr",
+      "text": "CP player receives 2 extra RPs to immediately flip supplied reduced strength German units to their full strength side. They may not be spent to replace eliminated units. May not be played if Berlin is AP controlled or out of supply.",
       "side": "CP",
       "number": 5,
       "ops": 2,
@@ -1400,7 +1406,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
-      "notes": "may not be played if Berlin is AP controlled or OOS"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -1412,6 +1418,7 @@
   {
     "front": {
       "name": "Entrench",
+      "text": "Place a Level 1 Trench (not improve a Level 1 to Level 2) in any space occupied by a supplied friendly Army. Both players may now entrench. Only one player may play this card as an event.",
       "side": "CP",
       "number": 6,
       "ops": 3,
@@ -1419,7 +1426,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
-      "notes": "only one player may play as an event",
+      "combat": false,
       "prevents": "AP12"
     },
     "back": {
@@ -1431,13 +1438,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (9th Army)",
+      "text": "9th Army",
       "side": "CP",
       "number": 7,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1450,12 +1459,14 @@
   {
     "front": {
       "name": "Race to the Sea",
+      "text": "CP units may now end movement in Ostend, Calais, and Amiens. Card may also be played as an event after CP War Status is at 4 or higher.",
       "side": "CP",
       "number": 8,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1468,6 +1479,7 @@
   {
     "front": {
       "name": "Reichstag Truce",
+      "text": "May not be played after CP War Commitment Level is Total War. Add 1 VP.",
       "side": "CP",
       "number": 9,
       "ops": 4,
@@ -1475,6 +1487,7 @@
       "ws": 1,
       "deck": 0,
       "removed": true,
+      "combat": false,
       "notes": "may not be played after CP goes to Total War"
     },
     "back": {
@@ -1487,12 +1500,14 @@
   {
     "front": {
       "name": "Sud Army",
+      "text": "One AH unit and up to 2 GE corps may stack together and be Activated for a cost of 1 OPS point. A different stack may be chosen each Action Round. If a second AH unit or a second non-GE corps unit is present, then the activation cost is 2 OPS points. This event does not supersede rule 12.1.11.",
       "side": "CP",
       "number": 10,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1504,13 +1519,15 @@
   },
   {
     "front": {
-      "name": "OberOst",
+      "name": "Oberost",
+      "text": "German units may now attack spaces containing RU forts. (They may always besiege such spaces). May still be played for War Status after CP War Status is 4 or higher.",
       "side": "CP",
       "number": 11,
       "ops": 2,
       "sr": 2,
       "ws": 1,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1522,13 +1539,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (10th Army)",
+      "text": "10th Army, 2 corps",
       "side": "CP",
       "number": 12,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1541,14 +1560,15 @@
   {
     "front": {
       "name": "Falkenhayn",
+      "text": "May only be played on Aug/Sep 1914 turns only after \"Moltke\" is played or without restriction beginning Fall 1914. Cancels the effect of \"Moltke\". Allows play of \"Place of Execution\".",
       "side": "CP",
       "number": 13,
       "ops": 4,
       "sr": 4,
       "ws": 2,
       "deck": 0,
+      "combat": false,
       "removed": true,
-      "notes": "may be played on Aug/Sep 1914 turns only afer Moltke, or freely from Fall 1914; allows play of Place of Execution"
     },
     "back": {
       "face": "CP_back"
@@ -1559,13 +1579,15 @@
   },
   {
     "front": {
-      "name": "Austria-Hungary Reinforcements",
+      "name": "Austria-Hungary Reinforcements (7th Army)",
+      "text": "7th Army, 2 corps",
       "side": "CP",
       "number": 14,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 0,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1578,12 +1600,14 @@
   {
     "front": {
       "name": "Chlorine Gas",
+      "text": "A GE attack adds +1 drm.",
       "side": "CP",
       "number": 15,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -1596,12 +1620,14 @@
   {
     "front": {
       "name": "Liman von Sanders",
+      "text": "A TU (SN unit does not count) attack or defense adds a +1 drm.",
       "side": "CP",
       "number": 16,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -1614,12 +1640,14 @@
   {
     "front": {
       "name": "Mata Hari",
+      "text": "CP player may examine all cards in the Allied player's hand and then conduct Operations using this card.",
       "side": "CP",
       "number": 17,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1632,12 +1660,14 @@
   {
     "front": {
       "name": "Fortified Machine Guns",
+      "text": "A GE entrenched defender adds a +1 drm.",
       "side": "CP",
       "number": 18,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": false
     },
     "back": {
@@ -1650,12 +1680,14 @@
   {
     "front": {
       "name": "Flamethrowers",
+      "text": "A GE attack adds +1 drm.",
       "side": "CP",
       "number": 19,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -1667,13 +1699,15 @@
   },
   {
     "front": {
-      "name": "Austria-Hungary Reinforcements",
+      "name": "Austria-Hungary Reinforcements (10th Army)",
+      "text": "10th Army",
       "side": "CP",
       "number": 20,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1685,13 +1719,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (11th Army)",
+      "text": "11th Army, 1 corps",
       "side": "CP",
       "number": 21,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1703,13 +1739,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (12th Army)",
+      "text": "12th Army, 1 corps",
       "side": "CP",
       "number": 22,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1721,13 +1759,15 @@
   },
   {
     "front": {
-      "name": "Austria-Hungary Reinforcements",
+      "name": "Austria-Hungary Reinforcements (11th Army)",
+      "text": "11th Army",
       "side": "CP",
       "number": 23,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1740,14 +1780,15 @@
   {
     "front": {
       "name": "Libyan Revolt",
+      "text": "May only be played if there are no Allied units in the Libya space. Place the SN unit in Libya. SN unit is always in supply. Spaces converted by the SN unit are checked normally during the Attrition phase. See 11.1.6.",
       "side": "CP",
       "number": 24,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true,
-      "notes": "may only be played if there are no Allied units in Libya"
     },
     "back": {
       "face": "CP_back"
@@ -1759,14 +1800,15 @@
   {
     "front": {
       "name": "High Seas Fleet",
+      "text": "High Seas Fleet sorties. Unless the Allied player plays the \"Grand Fleet\" as his next action, add 1 VP.",
       "side": "CP",
       "number": 25,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true,
-      "notes": "Grand Fleet may be played as next action"
     },
     "back": {
       "face": "CP_back"
@@ -1778,14 +1820,15 @@
   {
     "front": {
       "name": "Place of Execution",
+      "text": "May only be played after \"Falkenhayn\" and before \"H-L Take Command\". A GE attack vs. an undestroyed FR fort space adds a +2 drm. May be played alone as an event (for War Status) if all FR forts are already destroyed.",
       "side": "CP",
       "number": 26,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 1,
+      "combat": true,
       "removed": true,
-      "notes": "may only be played after Falkenhayn and before H-L Take Command"
     },
     "back": {
       "face": "CP_back"
@@ -1797,12 +1840,14 @@
   {
     "front": {
       "name": "Zeppelin Raids",
+      "text": "Subtract 4 BR RPs from the BR RP total during the Replacement Phase of this turn.",
       "side": "CP",
       "number": 27,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1815,13 +1860,16 @@
   {
     "front": {
       "name": "Tsar Takes Command",
+      "text": "May only be played if the Russian Capitulation marker is in the \"Tsar Takes Command Allowed\" box. See 16.4",
       "side": "CP",
       "number": 28,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 1,
+      "combat": false,
       "removed": true,
+      "yellow": true,
       "notes": "may only be played if the Russian Capitulation marker is in the Tsar Takes Command Allowed box"
     },
     "back": {
@@ -1834,12 +1882,14 @@
   {
     "front": {
       "name": "11th Army",
+      "text": "The GE 11th Army (only) and any CP Corp(s) may stack together and be Activated for a cost of 1 OPS point. If a second CP army is present, then the activation cost for the space is 2 OPS points. Event can be played prior to German 11th Army Reinforcement Event and also if GE 11th is already permanently eliminated. This event does not supersede rule 12.1.11.",
       "side": "CP",
       "number": 29,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1852,12 +1902,14 @@
   {
     "front": {
       "name": "Alpenkorps",
+      "text": "A GE attack to or from a mountain space adds +1 drm.",
       "side": "CP",
       "number": 30,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": false
     },
     "back": {
@@ -1870,12 +1922,14 @@
   {
     "front": {
       "name": "Kemal",
+      "text": "A TU unit defender (SN unit does not count) with a combat factor of 1 or more may fire on the Army Table. May only be used in one Combat per turn. If after a flank attack the required TU unit with a combat factor of 1 or more is no longer present, convert the remaining factors from the Corps Fire Table to the Army Fire Table (round \"0\" Corps Fire Table column up to the \"1\" Army Fire Table Column)",
       "side": "CP",
       "number": 31,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 1,
+      "combat": true,
       "removed": false
     },
     "back": {
@@ -1888,12 +1942,14 @@
   {
     "front": {
       "name": "War in Africa",
+      "text": "Permanently remove 1 full strength BR corps on the map or in the Reserve Box from the game or add 1 VP (Allied choice). If a full strength BR corps is not available, then a reduced BR corps may be used. ANA, AUS, CND, BEF, or PT do not qualify as BR for this purpose.",
       "side": "CP",
       "number": 32,
       "ops": 3,
       "sr": 4,
       "ws": 1,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1906,12 +1962,14 @@
   {
     "front": {
       "name": "Walter Rathenau",
+      "text": "Add 1 extra GE RP during the Replacement Phase of every turn even if the CP did not play Replacements on a turn. Can be played for War Status after \"Independent Air Force\".",
       "side": "CP",
       "number": 33,
       "ops": 5,
       "sr": 5,
       "ws": 2,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1924,12 +1982,14 @@
   {
     "front": {
       "name": "Bulgaria",
+      "text": "Bulgaria joins the CP.",
       "side": "CP",
       "number": 34,
       "ops": 5,
       "sr": 5,
       "ws": 2,
       "deck": 1,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1942,12 +2002,14 @@
   {
     "front": {
       "name": "Mustard Gas",
+      "text": "A GE attack adds +1 drm.",
       "side": "CP",
       "number": 35,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 2,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -1960,6 +2022,7 @@
   {
     "front": {
       "name": "U-Boats Unleashed",
+      "text": "May only be played after \"H-L Take Command\". Subtract 1 BR RP during the Replacement Phase of each turn and prevent play of \"US Reinforcements\" until \"Convoy\" is played.",
       "side": "CP",
       "number": 36,
       "ops": 2,
@@ -1967,7 +2030,7 @@
       "ws": 2,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after H-L Take Command; prevents play of US Reinforcements until Convoy is played"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -1979,12 +2042,14 @@
   {
     "front": {
       "name": "Hoffmann",
+      "text": "Adds +1 to all future CP Mandated Offensive die rolls. May only be played after \"H-L Take Command\".",
       "side": "CP",
       "number": 37,
       "ops": 2,
       "sr": 2,
       "ws": 1,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -1996,13 +2061,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (2 corps)",
+      "text": "2 corps",
       "side": "CP",
       "number": 38,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2014,13 +2081,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (2 corps)",
+      "text": "2 corps",
       "side": "CP",
       "number": 39,
       "ops": 2,
       "sr": 2,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2033,12 +2102,14 @@
   {
     "front": {
       "name": "Air Superiority",
+      "text": "A GE attack adds +1 drm.",
       "side": "CP",
       "number": 40,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": true,
       "removed": false
     },
     "back": {
@@ -2050,13 +2121,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (14th Army)",
+      "text": "14th Army",
       "side": "CP",
       "number": 41,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2068,13 +2141,15 @@
   },
   {
     "front": {
-      "name": "Turkish Reinforcements",
+      "name": "Turkish Reinforcements (YLD Army)",
+      "text": "YLD Army",
       "side": "CP",
       "number": 42,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2087,12 +2162,14 @@
   {
     "front": {
       "name": "Von Below",
+      "text": "Cancels all trench effects for one GE attack against only IT unit(s).",
       "side": "CP",
       "number": 43,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -2105,12 +2182,14 @@
   {
     "front": {
       "name": "Von Hutier",
+      "text": "Attacker fires first and cancels all trench effects for a GE attack against a space containing RU unit(s). A trench does not need to be present. Play prior to Attempt Flank Attack Step. (Defending space may also contain other AP nationalities).",
       "side": "CP",
       "number": 44,
       "ops": 3,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": true,
       "removed": true
     },
     "back": {
@@ -2123,6 +2202,7 @@
   {
     "front": {
       "name": "Treaty of Brest Litovsk",
+      "text": "May only be played after \"Bolshevik Revolution\". RU units may no longer attack. CP units may not attack RU units except TU units may attack on the Near East map. Both sides may still move into unoccupied spaces and may still suffer attrition, besiege forts, and resolve sieges. Also see 5.5.2.",
       "side": "CP",
       "number": 45,
       "ops": 4,
@@ -2130,7 +2210,7 @@
       "ws": 1,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after Bolshevik Revolution"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -2141,13 +2221,15 @@
   },
   {
     "front": {
-      "name": "German Reinforcements",
+      "name": "German Reinforcements (17th Army, 18th Army)",
+      "text": "17th Army, 18th Army",
       "side": "CP",
       "number": 46,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2160,12 +2242,14 @@
   {
     "front": {
       "name": "French Mutiny",
+      "text": "Flip Allied MO markers to \"FR Mutiny\" side. Current and future FR MOs are considered FR Mutiny while the MO marker is in the FR box. If any FR units not stacked with US units attack on a FR Mutiny turn, add 1 VP for the turn (not for each attack). FR Mutiny does not apply to attacks outside of FR, BE, GE. No attack is ever required during an FR Mutiny turn.",
       "side": "CP",
       "number": 47,
       "ops": 4,
       "sr": 4,
       "ws": 1,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2177,13 +2261,15 @@
   },
   {
     "front": {
-      "name": "Turkish Reinforcements",
+      "name": "Turkish Reinforcements (AoI Army)",
+      "text": "AoI Army",
       "side": "CP",
       "number": 48,
       "ops": 4,
       "sr": 4,
       "ws": 0,
       "deck": 2,
+      "combat": false,
       "removed": true
     },
     "back": {
@@ -2196,6 +2282,7 @@
   {
     "front": {
       "name": "Michael",
+      "text": "May only be played after \"H-L Take Command\". Cancels all trench effects for 1 GE attack and adds a +1 drm for that attack. Play prior to Attempt Flank Attack Step. A trench does not need to be present.",
       "side": "CP",
       "number": 49,
       "ops": 4,
@@ -2203,7 +2290,7 @@
       "ws": 1,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after H-L Take Command"
+      "combat": true,
     },
     "back": {
       "face": "CP_back"
@@ -2215,6 +2302,7 @@
   {
     "front": {
       "name": "Blucher",
+      "text": "May only be played after \"H-L Take Command\". Cancels all trench effects for 1 GE attack. Play prior to Attempt Flank Attack Step. A trench does not need to be present.",
       "side": "CP",
       "number": 50,
       "ops": 4,
@@ -2222,7 +2310,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after H-L Take Command"
+      "combat": true,
     },
     "back": {
       "face": "CP_back"
@@ -2234,6 +2322,7 @@
   {
     "front": {
       "name": "Peace Offensive",
+      "text": "May only be played after \"H-L Take Command\". Cancels all trench effects for 1 GE attack. If attacker does not advance into the space, subtract 1 VP. Play prior to Attempt Flank Attack Step. A trench does not need to be present.",
       "side": "CP",
       "number": 51,
       "ops": 4,
@@ -2241,7 +2330,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played after H-L Take Command"
+      "combat": true,
     },
     "back": {
       "face": "CP_back"
@@ -2253,6 +2342,7 @@
   {
     "front": {
       "name": "Fall of the Tsar",
+      "text": "May only be played if Russian Capitulation marker is in the \"Fall of Tsar Allowed\" box (see 16.4). Add 1 VP plus an additional 2 VP if Romania is still neutral. Activation for combat of spaces containing RU units costs an extra OPS per RU unit beyond the first, regardless of whether these units participate in combat. RU corps may no  longer move (can still SR) between the To Caucasus Box and the Near East.",
       "side": "CP",
       "number": 52,
       "ops": 5,
@@ -2260,6 +2350,8 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
+      "combat": false,
+      "yellow": true,
       "notes": "may only be played if Russian Capitulation marker is in the Fall of the Tsar Allowed box"
     },
     "back": {
@@ -2272,6 +2364,7 @@
   {
     "front": {
       "name": "Bolshevik Revolution",
+      "text": "May only be played if  Russian Capitulation marker is in the \"Bolshevik Revolution Allowed\" box. No more than 1 RU RP may be spent each turn. Current and future RU MOs become \"None\".",
       "side": "CP",
       "number": 53,
       "ops": 5,
@@ -2279,7 +2372,8 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may only be played if Russian Capitulation marker is in the Bolshevik Revolution Allowed box"
+      "yellow": true,
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -2291,6 +2385,7 @@
   {
     "front": {
       "name": "H-L Take Command",
+      "text": "Allows play of \"Michael\", \"Blucher\", \"Peace Offensive\", \"Hoffmann\", and \"U-Boats Unleashed\". Prevents play of \"Place of Execution\". Current and future German MOs become \"None\".",
       "side": "CP",
       "number": 54,
       "ops": 5,
@@ -2298,7 +2393,7 @@
       "ws": 2,
       "deck": 2,
       "removed": true,
-      "notes": "allows play of Michael, Blucher, Peace Offensive, Hoffmann, U-Boats Unleashed; prevents play of Place of Execution"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -2310,6 +2405,7 @@
   {
     "front": {
       "name": "Lloyd George",
+      "text": "May not be played after Michael, Blucher, or Peace Offensive. No BR attacks vs. Level 2 entrenched GE units may be made for the rest of this turn. The effect of this card is canceled by play of Michael, Blucher, or Peace Offensive events. This event may mean that a BR MO cannot be fulfilled in a specific turn.",
       "side": "CP",
       "number": 55,
       "ops": 4,
@@ -2317,7 +2413,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may not be played after Michael, Blucher, or Peace Offensive"
+      "combat": false,
     },
     "back": {
       "face": "CP_back"
@@ -2329,6 +2425,7 @@
   {
     "front": {
       "name": "Withdrawal",
+      "text": "Defending units negate one required Corps step loss and instead retreat 1 space. This also cancels any retreat caused by losing the combat. If no Corps step(s) lost, an Army step loss may be negated. See rule 12.6 for details.",
       "side": "CP",
       "number": 56,
       "ops": 2,
@@ -2336,6 +2433,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -2348,6 +2446,7 @@
   {
     "front": {
       "name": "Kaisertreu",
+      "text": "An AH attack or defense adds +1 drm.",
       "side": "CP",
       "number": 57,
       "ops": 3,
@@ -2355,6 +2454,7 @@
       "ws": 0,
       "deck": 0,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -2367,6 +2467,7 @@
   {
     "front": {
       "name": "Stavka Timidity",
+      "text": "May be played after Tsar Takes Command. No RU attacks vs. entrenched GE units (only) the rest of this turn. Mixed CP stacks may be attacked. This is a reusable event, place in the discard pile after use.",
       "side": "CP",
       "number": 58,
       "ops": 2,
@@ -2374,7 +2475,7 @@
       "ws": 0,
       "deck": 1,
       "removed": false,
-      "notes": "may be played after Tsar Takes Command",
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -2387,6 +2488,7 @@
   {
     "front": {
       "name": "Polish Restoration",
+      "text": "May be played if the CP currently controls Warsaw. Subtract 1 VP. Add the three Polish Corps to the CP Reserve Box. These Corps are treated as German for all purposes but may not be replaced if Warsaw is Allied.",
       "side": "CP",
       "number": 59,
       "ops": 3,
@@ -2394,7 +2496,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
-      "notes": "may be played if CP controls Warsaw",
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -2407,6 +2509,7 @@
   {
     "front": {
       "name": "Turk Determination",
+      "text": "A TU Defender in any non-trench space is considered at Trench Level 1 for all purposes for that combat only. Brusilov Offensive can negate the trench effect of this card. The SN unit is not considered Turkish for the purpose of applying this combat card.",
       "side": "CP",
       "number": 60,
       "ops": 3,
@@ -2414,6 +2517,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -2426,6 +2530,7 @@
   {
     "front": {
       "name": "Haig",
+      "text": "Entrenched GE units in France/Belgium/Germany may ignore all retreat results vs. attacks with BR units this turn. No effect after play of Michael, Blucher, or Peace Offensive.",
       "side": "CP",
       "number": 61,
       "ops": 4,
@@ -2433,6 +2538,7 @@
       "ws": 0,
       "deck": 1,
       "removed": true,
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -2445,6 +2551,7 @@
   {
     "front": {
       "name": "Achtung: Panzer",
+      "text": "A GE attack vs. a clear space adds +1 drm.",
       "side": "CP",
       "number": 62,
       "ops": 2,
@@ -2452,6 +2559,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
+      "combat": true,
       "optional": true
     },
     "back": {
@@ -2464,6 +2572,7 @@
   {
     "front": {
       "name": "Russian Desertions",
+      "text": "May be played after Fall of the Tsar. CP may reduce four 2-step RU units.",
       "side": "CP",
       "number": 63,
       "ops": 3,
@@ -2471,7 +2580,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may be played after Fall of the Tsar",
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -2484,6 +2593,7 @@
   {
     "front": {
       "name": "Alberich",
+      "text": "May not be used if Allies play Royal Tank Corps or Yanks and Tanks. Cancels any one Allied attack in France/Belgium. Any Allied CC cards are considered not played. The aborted AP attack still counts for MO purposes.",
       "side": "CP",
       "number": 64,
       "ops": 3,
@@ -2491,7 +2601,7 @@
       "ws": 0,
       "deck": 2,
       "removed": true,
-      "notes": "may not be used if Allies play Royal Tank Corps or Yanks and Tanks",
+      "combat": false,
       "optional": true
     },
     "back": {
@@ -2504,6 +2614,7 @@
   {
     "front": {
       "name": "Prince Max",
+      "text": "May not be played after turn 16. Increases War Status by 3.",
       "side": "CP",
       "number": 65,
       "ops": 4,
@@ -2511,7 +2622,7 @@
       "ws": 3,
       "deck": 2,
       "removed": true,
-      "notes": "may not be played after turn 16",
+      "combat": false,
       "optional": true
     },
     "back": {
